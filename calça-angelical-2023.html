@@ -1,0 +1,146 @@
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FREE FIRE EXPRESS</title>
+  <style>
+          body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      width: 320px; /* Largura desejada */
+      height: 108px; /* Altura desejada */
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    
+    .hamburger-menu {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #fff;
+      cursor: pointer;
+      z-index: 1;
+    }
+    
+    .options-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      transition: width 0.3s ease;
+    }
+    
+    .options-container.open {
+      width: 250px;
+    }
+    
+    .options {
+      width: 100%;
+      padding: 20px;
+      color: #fff;
+      text-align: left;
+    }
+    
+    .options a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    footer {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    
+    /* Estilos para as imagens de exemplo */
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(-1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./image/baner.png" style="position: center; width: 250px;">
+    <div class="hamburger-menu" onclick="toggleOptions()">&#9776;</div>
+  </header>
+
+  <div class="options-container" id="options-container">
+    <div class="options">
+      <br>
+      <br>
+       <a href="index.html">Início</a>
+       <a href="política.html">Política de privacidade</a>
+       <a href="termos.html">Termos</a>
+    </div>
+  </div>
+  <h1>Evento da Calça Angelical em julho 2023 e mais</h1>
+  <img src="./image/anjo.png" style="width: 360px;">
+  <p style="text-align: center; font-size: 110%;"><em>Calça Angelical Free Fire estará de volta ao servidor brasileiro na próxima semana.</em></p>
+  <br>
+  <div style="font-size: 20px; text-align: center; background-color: deepskyblue;">
+<hr class="line">
+          <b>NÃO POSSUI O JOGO?<br>BAIXE AGORA</b><br>
+          <img src="./image/ff.jpeg" style="align-items: center; width: 100px;">
+          <br>
+          <br>
+          <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth"><button style="height: 50px; width: 320px; font-size: 35px; background-color: greenyellow; border-color: black; border-radius: 40px; pointer-events: pointer;">Instalar</button></a>
+          <br>
+          <br>
+          <video width="300" height="170" controls>
+                  <source src="./video/ff.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+          </video>
+          <hr class="line">
+  </div>
+     <p style="font-size: 120%;">A skin de maior popularidade na comunidade retornará ao APK, a <b>Calça Angelical</b> Free Fire estará de volta ao Battle Royale da <b>Garena</b> no próximo fim de semana, nesta <b>quarta-feira 12 de julho de 2023,</b> o site "<b style="color: aqua"> <a href="https://freefireclub.com/" style="color: aqua;">FREE FIRE CLUB</a></b>" detalhará as informações sobre o evento comb>exclusividade no Brasil</b>
+     </p>
+     <p style="font-size: 120%;">
+        A <b>Calça Angelical</b> Free Fire retornará na próxima <b>sexta-feira 21 de julho de 2023</b> no evento <b>Torre de Tokens</b>, mais precisamente após às <b>00h (horário de Brasília)</b>.
+     </p>
+     <img src="./image/calças.jpeg" style="width: 360px;">
+     <h1>Como funciona o evento</h1>
+     <h2>1.</h2> <h4>Gire para receber recompensas ou tokens especiais. Tokens especiais podem ser usados para coletar o grande prêmio.</h4>
+     
+     <h2>2.</h2> <h4>As recompensas recebidas serão colocadas na mochila, exceto os tokens.</h4>
+     
+     <h2>3.</h2> <h4> Os jogadores podem selecionar itens na mochila para trocar por mais giros.</h4>
+     
+     <h2>4.</h2> <h4>Quando a temporada do royale acaba, as recompensas ainda na mochila serão enviadas automaticamente para o cofre</h4>
+     
+  <footer>
+    &copy; 2023 FREE FIRE EXPRESS. Todos os direitos reservados.
+  </footer>
+  <script>
+    function toggleOptions() {
+      var optionsContainer = document.getElementById("options-container");
+      optionsContainer.classList.toggle("open");
+    }
+  </script>
+</body>
+</html>

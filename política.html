@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Política de privacidade</title>
+   <style>
+      h1, h2, h3, p {color: white;}
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      width: 320px; /* Largura desejada */
+      height: 108px; /* Altura desejada */
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    
+    .hamburger-menu {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #fff;
+      cursor: pointer;
+      z-index: 1;
+    }
+    
+    .options-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      transition: width 0.3s ease;
+    }
+    
+    .options-container.open {
+      width: 250px;
+    }
+    
+    .options {
+      width: 100%;
+      padding: 20px;
+      color: #fff;
+      text-align: left;
+    }
+    
+    .options a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    
+    
+    footer {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    
+    /* Estilos para as imagens de exemplo */
+
+    .line {
+        width: 85%;
+        height: 1px;
+        background-color: white;
+        transform: scaleX(1.3);
+    }
+  </style>
+</head>
+<header>
+   <img src="./image/baner.png" style="position: center; width: 250px;">
+   <div class="hamburger-menu" onclick="toggleOptions()">&#9776;</div>
+   <hr class="line">
+</header>
+
+<div class="options-container" id="options-container">
+   <div class="options">
+      <br>
+      <br>
+      <a href="index.html">Início</a>
+       <a href="política.html">Política de privacidade</a>
+        <a href="termos.html">Termos</a>
+   </div>
+</div>
+<body style="background-image: url(./image/fundo.png);">
+<h1 style="text-align: center;">Política de Privacidade</h1>
+
+<h3>1. Coleta de Informações:</h3>
+<p>Nóssa equipe, não coletamos em momento algum informações pessoais ou sociais dos usuários. Respeitamos sua privacidade e nos comprometemos em não solicitar dados sensíveis, como nome completo, endereço residencial, número de telefone, número do CPF, ou quaisquer outras informações que possam identificá-lo individualmente.</p>
+
+<h3>2. Cookies e Tecnologias de Rastreamento:</h3>
+<p>Nós não utilizamos cookies ou outras tecnologias de rastreamento para coletar informações pessoais ou sociais dos usuários. Nosso objetivo é garantir que sua experiência em nosso site seja segura e livre de preocupações quanto à privacidade.</p>
+
+<h3>3. Compartilhamento de Informações:</h3>
+<p>Devido à nossa política estrita de não coleta de informações pessoais ou sociais dos usuários, não compartilhamos quaisquer informações com terceiros. Sua privacidade é de extrema importância para nós e garantimos que suas informações pessoais não serão vendidas, trocadas, divulgadas ou transferidas a terceiros de qualquer forma.</p>
+
+<h3>4. Segurança de Dados:</h3>
+<p>Adotamos medidas de segurança adequadas para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição. Embora nos esforcemos para garantir a segurança de seus dados, lembramos que nenhum método de transmissão pela internet ou armazenamento eletrônico é 100% seguro. Portanto, não podemos garantir absoluta segurança.</p>
+<script>
+   function toggleOptions() {
+      var optionsContainer = document.getElementById("options-container");
+      optionsContainer.classList.toggle("open");
+   }
+</script>
+</body>
+</html>

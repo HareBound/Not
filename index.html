@@ -1,0 +1,120 @@
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FREE FIRE EXPRESS</title>
+  <style>
+          body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: firebrick;
+          }
+    header {
+      width: 320px; /* Largura desejada */
+      height: 108px; /* Altura desejada */
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    
+    .hamburger-menu {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #fff;
+      cursor: pointer;
+      z-index: 1;
+    }
+    
+    .options-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      transition: width 0.3s ease;
+    }
+    
+    .options-container.open {
+      width: 250px;
+    }
+    
+    .options {
+      width: 100%;
+      padding: 20px;
+      color: #fff;
+      text-align: left;
+    }
+    
+    .options a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    footer {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    
+    /* Estilos para as imagens de exemplo */
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(-1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./image/baner.png" style="position: center; width: 250px;">
+    <div class="hamburger-menu" onclick="toggleOptions()">&#9776;</div>
+  </header>
+
+  <div class="options-container" id="options-container">
+    <div class="options">
+      <br>
+      <br>
+      <a href="index.html">Início</a>
+       <a href="política.html">Política de privacidade</a>
+        <a href="termos.html">Termos</a>
+    </div>
+  </div>
+  <h1 style="text-align: center; color: white;">Evento e notícias</h1>
+  <div style="background-color: black; color: white;">
+<h2 style="text-align: center;">calça angelical de volta?<br>
+👇👇👇👇👇👇👇👇👇
+</h2>
+  <a href="calça-angelical-2023.html"><img src="./image/anjo.png" style="width: 360px;"> </a
+  </div>
+     
+  <footer style="background-color: firebrick; color: white;">
+   <b>&copy; 2023 FREE FIRE EXPRESS. Todos os direitos reservados.</b>
+  </footer>
+  <script>
+    function toggleOptions() {
+      var optionsContainer = document.getElementById("options-container");
+      optionsContainer.classList.toggle("open");
+    }
+  </script>
+</body>
+</html>
